@@ -7,7 +7,7 @@ const ps = require('prompt-sync');
 const prompt = ps();
 
 function wait(str, ms) {
-    return new Promise(resolve => setTimeout(function () {onsole.log(gradient('#ff6464', '#ff264e')(str));}, ms));
+    return new Promise(resolve => setTimeout(function () {console.log(gradient('#ff6464', '#ff264e')(str));}, ms));
 }
 
 main();
